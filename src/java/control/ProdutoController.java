@@ -22,7 +22,7 @@ import model.ProdutoDAO;
  *
  * @author Kanec
  */
-@WebServlet(name = "ProdutoControle", urlPatterns = {"/cadastrarproduto", "/listarprodutos"})
+@WebServlet(name = "ProdutoController", urlPatterns = {"/cadastrarproduto", "/listarprodutos"})
 public class ProdutoController extends HttpServlet {
 
     private Object con;
